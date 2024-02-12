@@ -5,6 +5,8 @@ body {
   display: flex;
   height: 100vh;
   gap: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 .box {
   width: 200px;
