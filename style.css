@@ -1,20 +1,25 @@
 body {
-  margin: 0 20px;
+  margin: 0;
 }
 .father {
   display: flex;
   height: 100vh;
-  gap: 20px;
-  flex-flow: row wrap;
   justify-content: center;
+  align-items: stretch;
 }
 .box {
-  width: 200px;
-  height: 200px;
-  background-color: tomato;
+  height: 300px;
   font-size: 50px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.box:first-child {
+  background-color: tomato;
+  flex: 0 1 500px;
+}
+.box:last-child {
+  background-color: teal;
+  flex-grow: 1;
 }
