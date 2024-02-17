@@ -3,24 +3,20 @@ body {
 }
 .father {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  height: 50vh;
+  grid-template-columns: repeat(5, 80px);
+  grid-template-rows: repeat(2, 80px);
+  height: 100vh;
   gap: 10px;
-  grid-auto-rows: 1fr;
-  place-items: end start;
+  grid-auto-rows: 80px;
+  place-content: center;
+  background-color: lightskyblue;
 }
 
 .child {
-  width: 50px;
-  height: 50px;
   background-color: tomato;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 36px;
-}
-.child:nth-child(8) {
-  background-color: teal;
-  place-self: start end;
 }
