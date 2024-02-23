@@ -7,105 +7,74 @@
     <title>CSS Layout Masterclass</title>
   </head>
   <body>
-    <div class="phone">
-      <header class="header">
-        <ul class="header__list">
-          <li class="header__list-item">
-            <svg class="header__item-btn small" viewBox="0 0 320 512">
-              <path
-                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
-              />
-            </svg>
-            <svg class="header__item-btn" viewBox="0 0 512 512">
-              <path
-                d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z"
-              />
-            </svg>
-          </li>
-          <li class="header__list-item">
-            <h2 class="header__item-title">MY CART</h2>
-          </li>
-          <li class="header__list-item">
-            <svg class="header__item-btn" viewBox="0 0 576 512">
-              <path
-                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
-              />
-            </svg>
-          </li>
-        </ul>
-      </header>
-      <div class="topBar">
-        <h2 class="topBar-balance">€ 3550</h2>
-        <span class="topBar-description">based on your Sitems</span>
-      </div>
-      <ul class="goods-list">
-        <li class="goods-list__item">
-          <h2 class="goods-list__item-title">POP TEMPLE PRINT T- SHIRT</h2>
-          <p class="goods-list__item-time">verace limited 2021</p>
-          <div class="goods-list__item-price">
-            <span class="goods-list__item-priceValue">€ 1990</span>
-            <p class="goods-list__item-priceDetail">€ 995 per piece</p>
-          </div>
-          <img
-            src="https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwODQyODA2Mg&ixlib=rb-4.0.3&q=80&w=1080"
-            alt="goods-image"
-            class="goods-list__item-image"
-          />
-          <div class="goods-list__bottomBar">
-            <div class="goods-list__bottomBar-item">
-              <div class="goods-list__bottomBar-title">SIZE</div>
-              <div class="goods-list__bottomBar-value">48-L</div>
-              <svg class="goods-list__bottomBar-image" viewBox="0 0 384 512">
-                <path
-                  d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                />
-              </svg>
-            </div>
-            <div class="goods-list__bottomBar-item">
-              <div class="goods-list__bottomBar-title">QT</div>
-              <div class="goods-list__bottomBar-value">2 pcs</div>
-              <svg class="goods-list__bottomBar-image" viewBox="0 0 384 512">
-                <path
-                  d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                />
-              </svg>
-            </div>
-          </div>
-        </li>
-        <li class="goods-list__item">
-          <div class="goods-list__item-title">CHAIN REACTIC N TRAINE RS</div>
-          <p class="goods-list__item-time">versace limited 2021</p>
-          <div class="goods-list__item-price">
-            <span class="goods-list__item-priceValue">€ 1990</span>
-            <p class="goods-list__item-priceDetail">€ 995 per piece</p>
-          </div>
-          <img
-            src="https://images.unsplash.com/photo-1705178733516-a5f05c19c5d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcwODQyODI1Mg&ixlib=rb-4.0.3&q=80&w=1080"
-            alt="goods-image"
-            class="goods-list__item-image"
-          />
-          <div class="goods-list__bottomBar">
-            <div class="goods-list__bottomBar-item">
-              <div class="goods-list__bottomBar-title">SIZE</div>
-              <div class="goods-list__bottomBar-value">45</div>
-              <svg class="goods-list__bottomBar-image" viewBox="0 0 384 512">
-                <path
-                  d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                />
-              </svg>
-            </div>
-            <div class="goods-list__bottomBar-item">
-              <div class="goods-list__bottomBar-title">QT</div>
-              <div class="goods-list__bottomBar-value">1 pcs</div>
-              <svg class="goods-list__bottomBar-image" viewBox="0 0 384 512">
-                <path
-                  d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                />
-              </svg>
-            </div>
-          </div>
-        </li>
+    <header class="header">
+      <ul class="header__list">
+        <li class="header__list-item">≡</li>
+        <li class="header__list-item">Best Sellers</li>
+        <li class="header__list-item">Hand Sanitizer</li>
+        <li class="header__list-item">Hand Cream</li>
+        <li class="header__list-item">Refills</li>
+        <li class="header__list-item">HAAN</li>
+        <li class="header__list-item">Toothpaste</li>
+        <li class="header__list-item">Hand Soap</li>
+        <li class="header__list-item">Combos</li>
+        <li class="header__list-item">🧑‍🦰</li>
+        <li class="header__list-item">🛍️</li>
       </ul>
-    </div>
+      <div class="breadcrumb">
+        <span class="breadcrumb-prevent">Home / Catalog / Hand Soap /</span>
+        <span class="breadcrumb-current">Sunset Fleur</span>
+      </div>
+    </header>
+    <section class="goods">
+      <div class="goods__photo">
+        <div class="goods-photo"></div>
+        <div class="goods__photo-pagination">
+          <span class="goods__photo-left">👈</span>
+          <span class="goods__photo-right">👉</span>
+        </div>
+      </div>
+      <div class="goods__info">
+        <div class="goods__product">
+          <div class="info-main">
+            <h3 class="goods-category">hand soap</h3>
+            <h1 class="goods-name">sunset fleur</h1>
+          </div>
+          <div class="info-sub">
+            <div class="goods-count">
+              <span class="count-minus">-</span>
+              <h3 class="count">1</h3>
+              <span class="count-plus">+</span>
+            </div>
+            <h2 class="info-price">$11.90</h2>
+            <div class="goods-buy">add to cart</div>
+          </div>
+        </div>
+        <div class="goods__more">
+          <div class="goods__description">
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              necessitatibus consectetur quasi voluptatum natus
+            </p>
+          </div>
+          <div class="goods__help">
+            <ul class="help__list">
+              <li class="help__item">
+                <h3 class="help__item-title">how to use</h3>
+                <span class="help__item-more">+</span>
+              </li>
+              <li class="help__item">
+                <h3 class="help__item-title">ingredients</h3>
+                <span class="help__item-more">+</span>
+              </li>
+              <li class="help__item">
+                <h3 class="help__item-title">shipping & payment</h3>
+                <span class="help__item-more">+</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
