@@ -7,133 +7,179 @@
     <title>CSS Layout Masterclass</title>
   </head>
   <body>
-    <div class="bar">
-      <span>Grid!</span>
-    </div>
-    <div class="bar">
-      <span>Projects</span>
-    </div>
-    <main class="main">
-      <nav class="nav">
-        <ul>
-          <li class="nav-item">Education</li>
-          <li class="nav-item">Food</li>
-          <li class="nav-item">Metting People</li>
-          <li class="nav-item">Work Space</li>
-        </ul>
-      </nav>
-      <div class="filter">
-        <span class="filter__title">Browse by client</span>
-        <div class="filter__types">
-          <span class="filter__name filter__name--selected">Featured</span>
-          <span class="filter__slash">/</span>
-          <span class="filter__name">Gallery</span>
-          <div class="filter__slash">/</div>
-          <span class="filter__name">List</span>
+    <div class="wrapper">
+      <div class="container">
+        <div class="storageInfo">
+          <div class="storageList">
+            <div class="storage">
+              <div class="storageSelect">
+                <div
+                  class="storageSelect__button storageSelect__button--selected"
+                ></div>
+                <div class="storageSelect__button"></div>
+                <div class="storageSelect__button"></div>
+              </div>
+              <div class="storage__shape">
+                <div class="top"></div>
+                <div class="black"></div>
+                <div class="red"></div>
+                <div class="white"></div>
+                <div class="bottom"></div>
+              </div>
+              <div class="storage__info">
+                <div class="storageVolume">
+                  14<span class="storageVolume__unit">tb</span>
+                </div>
+                <div class="reloadBtn">
+                  <div class="reloadBtn__circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="storage">
+              <div class="storage__shape">
+                <div class="storage__shape-smallCircle"></div>
+              </div>
+              <div class="storage__info">
+                <div class="storageVolume">
+                  4<span class="storageVolume__unit">tb</span>
+                </div>
+                <div class="storage__number">
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div class="storage__number-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="storage">
+              <div class="storage__shape">
+                <div class="storage__shape-smallCircle"></div>
+              </div>
+              <div class="storage__info">
+                <div class="storageVolume">
+                  8<span class="storageVolume__unit">tb</span>
+                </div>
+                <div class="storage__number">
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div class="storage__number-circle"></div>
+                  <div class="storage__number-circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="storage">
+              <div class="storage__shape">
+                <div class="storage__shape-smallCircle"></div>
+              </div>
+              <div class="storage__info">
+                <div class="storageVolume">
+                  2<span class="storageVolume__unit">tb</span>
+                </div>
+                <div class="storage__number">
+                  <div
+                    class="storage__number-circle storage__number-circle--selected"
+                  ></div>
+                  <div class="storage__number-circle"></div>
+                  <div class="storage__number-circle"></div>
+                  <div class="storage__number-circle"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="storageData">
+            <div class="storageUsage">
+              <div class="storageUsage__usage">
+                <span class="storageUsage__usage-title"
+                  >used (tb) / of total 8</span
+                >
+                <h1 class="storageUsage__usage-value">5.66</h1>
+              </div>
+              <div class="storageUsage__usage">
+                <span class="storageUsage__usage-title">available (tb)</span>
+                <h1 class="storageUsage__usage-value">2.34</h1>
+              </div>
+            </div>
+            <div class="storageSettings">
+              <div class="storageSetting">
+                <div class="storageSetting__icon">🖥️</div>
+                <div class="storageSetting__title">manage space</div>
+              </div>
+              <div class="storageSetting">
+                <div class="storageSetting__icon">
+                  <div class="storageSetting__icon-circle">
+                    <div class="storageSetting__icon-stick"></div>
+                  </div>
+                </div>
+                <div class="storageSetting__title">disc settings</div>
+              </div>
+              <div class="storageSetting">
+                <div class="storageSetting__icon">
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                  <div class="storageSetting__icon-dot"></div>
+                </div>
+                <div class="storageSetting__title">create backup</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="storageSpace">
+          <div class="storageSpace__space">
+            <h2 class="storageSpace__space-type">free space</h2>
+            <div class="storageSpace__space-volume">
+              <span class="space-volume__number">2.34</span>
+              <span class="space-volume__unit">tb</span>
+            </div>
+          </div>
+          <div class="storageSpace__space">
+            <h2 class="storageSpace__space-type">documents</h2>
+            <div class="storageSpace__space-volume">
+              <span class="space-volume__number">840.54</span>
+              <span class="space-volume__unit">mb</span>
+            </div>
+          </div>
+          <div class="storageSpace__space">
+            <h2 class="storageSpace__space-type">audio files</h2>
+            <div class="storageSpace__space-volume">
+              <span class="space-volume__number">1.08</span>
+              <span class="space-volume__unit">tb</span>
+            </div>
+          </div>
+          <div class="storageSpace__space">
+            <h2 class="storageSpace__space-type">images</h2>
+            <div class="storageSpace__space-volume">
+              <span class="space-volume__number">1.82</span>
+              <span class="space-volume__unit">tb</span>
+            </div>
+          </div>
+          <div class="storageSpace__space">
+            <h2 class="storageSpace__space-type">video</h2>
+            <div class="storageSpace__space-volume">
+              <span class="space-volume__number">2.38</span>
+              <span class="space-volume__unit">tb</span>
+            </div>
+          </div>
         </div>
       </div>
-      <section class="projects">
-        <article class="project">
-          <img src="https://source.unsplash.com/random" class="project__img" />
-          <span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-        <article class="project">
-          <img
-            src="https://source.unsplash.com/random"
-            class="project__img"
-          /><span class="project__name">This is my best client</span>
-        </article>
-      </section>
-    </main>
-    <div class="bar">
-      <span>Projects</span>
-    </div>
-    <div class="bar">
-      <span>Menu</span>
     </div>
   </body>
 </html>
