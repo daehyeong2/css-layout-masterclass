@@ -94,11 +94,19 @@ body {
             "Lucida Sans", Arial, sans-serif;
         }
       }
+      &:nth-child(11) {
+        border-radius: 0 0 15px 0;
+      }
+      &:nth-child(12) {
+        border-radius: 0 0 0 15px;
+      }
       &:nth-child(13) {
+        border-radius: 0 15px 0 0;
         grid-column: span 4;
       }
     }
     .subscribe {
+      border-radius: 15px 0 0 0;
       background-color: #d9d9d9;
       display: flex;
       flex-direction: column;
